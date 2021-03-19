@@ -1,0 +1,158 @@
+body{
+	background: grey;
+	margin: 0 auto;
+}
+
+h1, h2, p, a, button {
+	font-family: Myriad Pro;	
+}
+
+h1{
+	font-size: 80px;	
+	padding: 40px 0;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+/*1-я секция*/
+
+nav.head-nav{
+	background: #35444f;
+	text-align: center;
+	padding: 21px 0;
+	margin: 0 auto;
+	width: 1280px;
+	display: inline-block;
+}
+
+.display-flex{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 50px;
+}
+
+.head-nav a{
+	color: #fff;
+	padding: 21px 40px;
+	font-size: 24px;
+}
+
+.head-nav a:hover{
+	border-left: 1px solid #818181;
+	border-right: 1px solid #818181;
+	background: #222f3a;
+}
+
+.container{
+	background: #fff;
+	width: 1280px;
+	margin: 0 auto;
+}
+
+span{
+	color: #4bcaff;
+}
+
+/*2-я Секция*/
+
+.main-nav{
+	height: 397px;
+	border: 1px solid black;
+	margin: 0;
+}
+
+.info{
+	width: 884px;
+	text-align: -webkit-right;
+}
+.info-nav{
+	width: 344px;	
+
+	display: inline-block;
+}
+.info-nav a{
+	display: block;
+	font-size: 27px;
+	color: #485863;
+	padding:23px 0 23px 40px;
+}
+
+.info-nav a:hover{
+	padding:23px 0 23px 70px;
+	color: black;
+	background: #dbdbdb;	
+}
+
+.picture{
+	height: 528px;
+	border: 1px solid black;	
+	display: flex;
+	align-items: center;
+    justify-content: center;
+}
+
+.animation{
+	animation-name: none;
+	animation-fill-mode: forwards;
+
+}
+
+.animation:hover{
+	animation-name: animated125;
+	animation-duration: 1s;
+}
+
+@keyframes animated125 {
+	0%{
+		transform: scale(1);
+	}
+	100%{
+		transform: scale(1.25);
+	}
+}
+
+.text{
+	margin: 54px 0;
+}
+
+.text p{
+	margin: 30px 30px 0 30px;
+	font-size: 18px;
+	text-align: initial;
+}
+
+/*3-я Секция*/
+
+footer .container{
+	padding-bottom: 30px;
+}
+
+.footer{
+	background: #b4b7ba;
+	display: flex;
+    justify-content: space-between;
+}
+
+.foot-nav{
+	display: inline-block;
+	align-self: center;
+	margin-left: 40px;
+}
+
+.foot-nav a{
+	font-size: 28px;
+	padding:20px 20px 20px 0;
+}
+.foot-nav a:hover{
+	text-decoration: revert;
+	color: #4789a9;
+}
+
+.copyright{
+	margin-right: 32px;
+	font-size: 24px;
+}
