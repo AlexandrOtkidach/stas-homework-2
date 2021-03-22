@@ -1,5 +1,4 @@
 body{
-	background: grey;
 	margin: 0 auto;
 }
 
@@ -45,10 +44,10 @@ nav.head-nav{
 	border-left: 1px solid #818181;
 	border-right: 1px solid #818181;
 	background: #222f3a;
+	transition: all .2s linear;
 }
 
 .container{
-	background: #fff;
 	width: 1280px;
 	margin: 0 auto;
 }
@@ -85,6 +84,7 @@ span{
 	padding:23px 0 23px 70px;
 	color: black;
 	background: #dbdbdb;	
+	transition: all .3s linear;
 }
 
 .picture{
@@ -95,24 +95,12 @@ span{
     justify-content: center;
 }
 
-.animation{
-	animation-name: none;
-	animation-fill-mode: forwards;
-
+.animation {
+	transition: all .8s linear;
 }
 
 .animation:hover{
-	animation-name: animated125;
-	animation-duration: 1s;
-}
-
-@keyframes animated125 {
-	0%{
-		transform: scale(1);
-	}
-	100%{
-		transform: scale(1.25);
-	}
+	transform: scale(1.25);
 }
 
 .text{
@@ -150,6 +138,7 @@ footer .container{
 .foot-nav a:hover{
 	text-decoration: revert;
 	color: #4789a9;
+	transition: all 0.3s linear;
 }
 
 .copyright{
